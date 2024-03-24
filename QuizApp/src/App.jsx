@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Quiz question={jsQuizz.questions}></Quiz>
+      <Quiz questions={jsQuizz.questions}></Quiz>
     </>
   )
 }

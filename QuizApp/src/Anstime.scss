@@ -1,0 +1,20 @@
+@import "./index.scss";
+.ans-time-cont{
+
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1 px solid $disabled;
+
+
+
+    .pro{
+        height: 5px;
+        transition-duration: 1s;
+        width: 0;
+        transition-timing-function:linear ;
+        background-color: aqua;
+        
+}
+}
